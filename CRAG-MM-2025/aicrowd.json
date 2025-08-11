@@ -1,0 +1,22 @@
+{ 
+    "challenge_id": "single-source-augmentation",
+    "gpu": true,
+    "hf_models": [
+        {
+            "repo_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+            "revision": "main"
+        },
+        {
+            "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+            "revision": "main"   
+        },
+        {
+            "repo_id": "openai/clip-vit-large-patch14-336",
+            "revision": "main"
+        },
+        {
+            "repo_id": "BAAI/bge-large-en-v1.5", 
+            "revision": "main"
+        }
+    ]
+}
